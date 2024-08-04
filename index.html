@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="main/style.css">
+  <title>SSRHotel</title>
+</head>
+<body>
+  <header class="header">
+    <nav>
+      <div class="nav__bar">
+        <div class="logo">
+          <a href="#"><img src="main/assets/logo.png" alt="logo"></a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#rooms">Rooms</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="btn nav__btn">Book Now</button>
+    </nav>
+    <div class="section__container header__container" id="home">
+      <p>Welcome to SSRHotel</p>
+      <h1>Your Gateway to Luxury and Comfort</h1>
+    </div>
+  </header>
+
+  <section class="section__container about__container" id="about">
+    <div class="about__image">
+      <img src="main/assets/about.jpg" alt="about">
+    </div>
+    <div class="about__content">
+      <p class="section__subheader">ABOUT US</p>
+      <h2 class="section__header">Experience Unmatched Hospitality</h2>
+      <p class="section__description">
+        At SSRHotel, we pride ourselves on delivering exceptional experiences to our guests. From our elegantly designed rooms to our personalized services, every aspect of your stay is crafted to perfection.
+      </p>
+      <div class="about__btn">
+        <button class="btn">Learn More</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__container room__container" id="rooms">
+    <p class="section__subheader">OUR ROOMS</p>
+    <h2 class="section__header">Discover Comfort and Luxury</h2>
+    <div class="room__grid">
+      <div class="room__card">
+        <div class="room__card__image">
+          <img src="main/assets/room-1.jpg" alt="room">
+        </div>
+        <div class="room__card__details">
+          <h4>Deluxe Suite</h4>
+          <p>Experience opulence and relaxation in our spacious deluxe suites.</p>
+          <h5>Starting from <span>$299/night</span></h5>
+          <button class="btn">Book Now</button>
+        </div>
+      </div>
+      <div class="room__card">
+        <div class="room__card__image">
+          <img src="main/assets/room-2.jpg" alt="room">
+        </div>
+        <div class="room__card__details">
+          <h4>Executive Room</h4>
+          <p>Indulge in sophistication and comfort with our executive rooms.</p>
+          <h5>Starting from <span>$199/night</span></h5>
+          <button class="btn">Book Now</button>
+        </div>
+      </div>
+      <div class="room__card">
+        <div class="room__card__image">
+          <img src="main/assets/room-3.jpg" alt="room">
+        </div>
+        <div class="room__card__details">
+          <h4>Premium Suite</h4>
+          <p>Elevate your stay with panoramic views and luxurious amenities in our premium suites.</p>
+          <h5>Starting from <span>$349/night</span></h5>
+          <button class="btn">Book Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="service" id="services">
+    <div class="section__container service__container">
+      <div class="service__content">
+        <p class="section__subheader">OUR SERVICES</p>
+        <h2 class="section__header">Experience Excellence</h2>
+        <ul class="service__list">
+          <li><span><i class="ri-shield-star-line"></i></span>High-Class Security</li>
+          <li><span><i class="ri-24-hours-line"></i></span>24/7 Room Service</li>
+          <li><span><i class="ri-headphone-line"></i></span>Concierge Assistance</li>
+          <li><span><i class="ri-map-2-line"></i></span>Tour Packages</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="contact">
+    <div class="section__container footer__container">
+      <div class="footer__col">
+        <div class="logo">
+          <a href="#home"><img src="main/assets/logo.png" alt="logo"></a>
+        </div>
+        <p class="section__description">
+          Embrace luxury and comfort with SSRHotel. Plan your dream getaway with us today.
+        </p>
+        <button class="btn">Book Now</button>
+      </div>
+      <div class="footer__col">
+        <h4>QUICK LINKS</h4>
+        <ul class="footer__links">
+          <li><a href="#">Rooms & Suites</a></li>
+          <li><a href="#">Special Offers</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>CONTACT US</h4>
+        <ul class="footer__links">
+          <li><a href="tel:+123456789">+1 (234) 567-89</a></li>
+          <li><a href="mailto:info@ssrhotel.com">info@ssrhotel.com</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>CONNECT WITH US</h4>
+        <div class="footer__socials">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bar">
+      &copy; 2024 SSRHotel. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="main/script.js"></script>
+</body>
+</html>
